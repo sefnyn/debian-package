@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Wed, 22 Mar 2023 13:07:16 +0000
+Source: gibbon
+Binary: gibbon gibbon-dbgsym
+Architecture: source amd64
+Version: 12.0-1
+Distribution: UNRELEASED
+Urgency: low
+Maintainer: Nicholas Syrotiuk <sefnyn@gmail.com>
+Changed-By: Nicholas Syrotiuk <sefnyn@gmail.com>
+Description:
+ gibbon     - A GTK+ client for the First Internet Backgammon Server, FIBS
+Closes: 840978
+Changes:
+ gibbon (12.0-1) UNRELEASED; urgency=low
+ .
+   * New release for Debian 12. Closes: #840978
+Checksums-Sha1:
+ 44effdcbb5fc7a97fc2f5d4343562df354b7a5c5 815 gibbon_12.0-1.dsc
+ be520ab41a60034abcd16cd77918a6831d73eb9d 25982009 gibbon_12.0.orig.tar.gz
+ 2073145b7b21cef37e82cebc1c2c6122f150abf5 26816 gibbon_12.0-1.debian.tar.xz
+ d43bf0a3a0c712ed20ebb2b65119e197454c55f0 1218036 gibbon-dbgsym_12.0-1_amd64.deb
+ 655b47f46a5c365d78faa70e99eece9e2e50cc86 5226 gibbon_12.0-1_amd64.buildinfo
+ 54c7222c28ecde4907fe63187171c6109f8ff10a 1924532 gibbon_12.0-1_amd64.deb
+Checksums-Sha256:
+ b060bc8e21daed37face9f5340f31c1525b330249d6046b660ca1bbcf5bb1c7b 815 gibbon_12.0-1.dsc
+ 1a55ec31fc364c5f5fc303f51d6a316ce6a8165096291f478e5b87e623a5a080 25982009 gibbon_12.0.orig.tar.gz
+ a55ebe3214261dfb41270ded19e5a6294b8f5082bd9a65c989e4557ceb5496f0 26816 gibbon_12.0-1.debian.tar.xz
+ f53727c7ffb2f3907cfb4f548199674f65ed8cc4735495ee96b176714e947611 1218036 gibbon-dbgsym_12.0-1_amd64.deb
+ 115cd2f2f33877cda5b05f639f7c7e8f30934d7c6d8d40eebf3e9fcf5ee1950f 5226 gibbon_12.0-1_amd64.buildinfo
+ 5b31ef69d09350ea60b04111966d5a7684bb66a3d415327fdd71443b1c565bdf 1924532 gibbon_12.0-1_amd64.deb
+Files:
+ d88ad9d882d51e29d6ad9dd29b1f4f99 815 games optional gibbon_12.0-1.dsc
+ 7445333a8788e4540b654ca8d140238b 25982009 games optional gibbon_12.0.orig.tar.gz
+ a6285a5e6a3e7961f3f81c09be353f38 26816 games optional gibbon_12.0-1.debian.tar.xz
+ 97a3a2fe6ea7807649f9ddb5db54b90a 1218036 debug optional gibbon-dbgsym_12.0-1_amd64.deb
+ ca1e54b8e8370574bcd93b7297651250 5226 games optional gibbon_12.0-1_amd64.buildinfo
+ 77c1026e604af28c946aeb4773f7e8d2 1924532 games optional gibbon_12.0-1_amd64.deb
